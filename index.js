@@ -639,7 +639,10 @@ function start(client) {
                                       (message.body === 'Secundaria Mixta Foranea 10' && message.isGroupMsg === false) ||
                                       (message.body === 'Mixta Foranea 10' && message.isGroupMsg === false) ||
                                       (message.body === 'Secundaria Foranea 10' && message.isGroupMsg === false) ||
-                                      (message.body === 'Foranea 10' && message.isGroupMsg === false)
+                                      (message.body === 'Foranea 10' && message.isGroupMsg === false) ||
+                                      (message.body === 'Secundaria mixta foránea #10' && message.isGroupMsg === false) ||
+                                      (message.body === 'Mixta foránea #10' && message.isGroupMsg === false) ||
+                                      (message.body === 'Foránea #10' && message.isGroupMsg === false)
                                   ) {
                                     client
                                     .sendText(message.from, '¿Usted quiso decir *Escuela Secundaria Mixta “Foránea #10”*?\n\n*1.* - Si\n*2.* - No')
